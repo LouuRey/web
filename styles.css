@@ -68,7 +68,7 @@ nav{
 	font-weight: bold;
 	transition: all ease 0.4s;
 }
-.menu li a:active{
+.menu li a.active{
 	background-color:#ce745d;
 	color:#FFF;
 	font-weight: bold;
