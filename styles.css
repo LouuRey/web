@@ -383,7 +383,7 @@ width: 100%;
 	background-color: #F4F7FF;
 	margin: 20px 0px;
 	box-sizing: border-box;
-	box-shadow:2px 0px 20px rgba(206,116,93,0.4); 
+	box-shadow:2px 0px 20px rgba(0,0,0,0.4); 
 }
 .c-b-heading{
 	font-size: 2rem;
@@ -408,7 +408,7 @@ width: 100%;
 	box-shadow: 2px 5px 6px rgba(0,0,0,0.2);
 }
 #contact-btn button:hover{
-	background-color: #17d1ac;
+	background-color: rgba(206,116,93,0.6);
 	color:#000000;
 	transition: all ease 0.5s;
 	font-weight: bold;
