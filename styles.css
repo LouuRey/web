@@ -443,7 +443,7 @@ width: 100%;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	border-left: 1px solid rgba(255,255,255,0.08);
 }
 .contact-right button{
@@ -454,7 +454,7 @@ width: 100%;
 	outline: none;
 	border: none;
 	align-self: center;
-	justify-content: center;
+	margin-top: 20px;
 	border-radius:8px;
 	color:"black";
 	font-size: 14px;
@@ -517,6 +517,7 @@ width: 100%;
 	box-sizing: border-box;
 	color:#EBEBEB;
 	font-size: 16px;
+	margin: 0px;
 }
 .contact-right textarea::placeholder{
 	color:#4E4E4E;
