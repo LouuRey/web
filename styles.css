@@ -148,12 +148,14 @@ nav{
 	font-family: calibri;
 	width: 50%;
 }
-.about-text h2{
-	font-size: 3rem;
-	color:#ce745d;
+.about-text h2 {
+    font-size: 5rem;
+    color: #ce745d;
+    text-shadow: 2px 2px 3px black, -1px -1px 3px black, 1px -1px 3px black, -1px 1px 3px black, 1px 1px 3px black;
 }
+
 .about-text h3{
-	font-size: 1rem;
+	font-size: 3rem;
 	color:#292929;
 	font-weight: bold;
 }
