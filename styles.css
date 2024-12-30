@@ -513,11 +513,11 @@ width: 100%;
 	outline: none;
 	background-color:transparent;
 	box-sizing: border-box;
-	color:#4E4E4E;
+	color:#EBEBEB;
 	font-size: 16px;
 }
 .contact-right textarea::placeholder{
-	color:#EBEBEB;
+	color:#4E4E4E;
 	font-size: 18px;
 	letter-spacing: 2px;
 	font-family: calibri;
