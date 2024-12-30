@@ -454,6 +454,7 @@ width: 100%;
 	outline: none;
 	border: none;
 	align-self: center;
+	justify-self: center;
 	border-radius:8px;
 	color:"black";
 	font-size: 14px;
