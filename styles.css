@@ -408,7 +408,7 @@ width: 100%;
 	box-shadow: 2px 5px 6px rgba(0,0,0,0.2);
 }
 #contact-btn button:hover{
-	background-color: rgba(206,116,93,0.6);
+	background-color: rgb(206,116,93);
 	color:#000000;
 	transition: all ease 0.5s;
 	font-weight: bold;
