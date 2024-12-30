@@ -714,6 +714,7 @@ width: 100%;
 	.social{
 		left: 30px;
 		transform: translateX(-10px);
+		position: relative;
 	}
 }
 @media(max-width:400px){
