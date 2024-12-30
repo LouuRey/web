@@ -203,12 +203,21 @@
                 </div>
             </form>
         </section>
-        <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
-	<script type="text/javascript">
-	
-		  /*Responsive Navigation*/
-	  $(document).ready(function(){
-	 $('.toggle').click(function(){
-		 $('.toggle').toggleClass('active')
+        <script>
+            $(document).ready(function() {
+                // Menambahkan event untuk membuat menu aktif
+                $('.menu li a').click(function(e) {
+                    e.preventDefault(); // Mencegah tindakan default tautan
+                    $('.menu li a').removeClass('active'); // Hapus active dari semua menu
+                    $(this).addClass('active'); // Tambahkan active pada item yang diklik
+                });
+
+                // Responsive Navigation
+                $('.toggle').click(function() {
+                    $(this).toggleClass('active');
+                    $('.menu').toggleClass('active');
+                });
+            });
+        </script>
     </body>
 </html>
