@@ -530,6 +530,8 @@ width: 100%;
 	}
 	.about-model img{
 		height:400px;
+		bottom: 50px;
+		margin-bottom:50px;
 	}
 	#services{
 		height:auto;
@@ -559,7 +561,8 @@ width: 100%;
 		transform: translate(-50%,-50%);
 	}
 	.about-model{
-		margin-bottom: 20px;
+		bottom: 50px;
+		margin-bottom:50px;
 		display: none;
 	}
 	#about{
