@@ -292,6 +292,7 @@ transition: all ease 0.3s;
 	align-items: center;
 	justify-content: center;
 	padding: 60px 2% 20px 2%;
+	background-color: #edf1fd;
 }
  
 .p-headind{
