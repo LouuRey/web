@@ -14,13 +14,13 @@
             <nav>
                 <a href="#" class="logo">MAMM</a>
                 <div class="toggle"></div>
-		    <ul class="menu">
-		        <li><a href="#home" id="home-link" class="active">Home</a></li>
-		        <li><a href="#about" id="about-link">About</a></li>
-		        <li><a href="#services" id="services-link">Services</a></li>
-		        <li><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
-		        <li><a href="#contact" id="contact-link">Contact</a></li>
-		    </ul>
+                <ul class="menu">
+                    <li><a href="#main" >Home Page</a></li>	
+                    <li><a href="#about">About Me</a></li>	
+                    <li><a href="#services">Services</a></li>	
+                    <li><a href="#portfolio">My Portfolio</a></li>		
+                    <li><a href="#contact-form">Contact Me</a></li>	
+                </ul>
                 <a href="#" class="lang">En</a>
             </nav>
 	        <div class="name">
@@ -202,50 +202,13 @@
                     <button>submit</button>
                 </div>
             </form>
-	</section>
-	<script>
-	    $(document).ready(function() {
-	        // Fungsi untuk membuat menu aktif berdasarkan URL
-	        function setActiveMenu() {
-	            // Ambil hash dari URL saat ini (contoh: #about)
-	            var currentHash = window.location.hash;
+        </section>
+        <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+	<script type="text/javascript">
 	
-	            // Hapus class active dari semua menu
-	            $('.menu li a').removeClass('active');
-	
-	            // Jika hash ada, aktifkan menu sesuai hash
-	            if (currentHash) {
-	                $(`.menu li a[href="${currentHash}"]`).addClass('active');
-	            } else {
-	                // Jika tidak ada hash, default ke menu pertama (Home)
-	                $('.menu li a[href="#home"]').addClass('active');
-	            }
-	        }
-	
-	        // Panggil fungsi pertama kali halaman dimuat
-	        setActiveMenu();
-	
-	        // Event handler untuk membuat menu aktif saat diklik
-	        $('.menu li a').click(function(e) {
-	            e.preventDefault(); // Mencegah tindakan default tautan
-	            $('.menu li a').removeClass('active'); // Hapus active dari semua menu
-	            $(this).addClass('active'); // Tambahkan active pada item yang diklik
-	
-	            // Tambahkan hash ke URL tanpa reload halaman
-	            var targetHash = $(this).attr('href');
-	            window.location.hash = targetHash;
-	        });
-	
-	        // Responsive Navigation
-	        $('.toggle').click(function() {
-	            $(this).toggleClass('active');
-	            $('.menu').toggleClass('active');
-	        });
-	    });
-	</script>
-
-	    
-
-
+		  /*Responsive Navigation*/
+	  $(document).ready(function(){
+	 $('.toggle').click(function(){
+		 $('.toggle').toggleClass('active')
     </body>
 </html>
