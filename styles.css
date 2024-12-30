@@ -67,6 +67,7 @@ nav{
 	color:#FFF!important;
 	font-weight: bold;
 	transition: all ease 0.4s;
+	border-radius:20px;
 }
 .menu li a.active{
 	background-color:#ce745d;
