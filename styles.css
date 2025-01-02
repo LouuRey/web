@@ -798,7 +798,7 @@ width: 100%;
 		height: 450px;
 	}
 	.contact-right button{
-		height: 15%;
+		height: 67.5px;
 	}
 }
 @media(max-width:400px){
@@ -846,11 +846,10 @@ width: 100%;
 	} 
 
 	#contact-form form{
-		height: 450
-0px;
+		height: 450px;
 	}
 	.contact-right button{
-		height: 15%;
+		height: 67.5px;
 	}
 }
 
