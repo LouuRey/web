@@ -808,6 +808,7 @@ width: 100%;
 	}
 	#main{
 		height: 750px;
+		background-image: none;
 	}
 	#services{
 		padding-top: 0px;
