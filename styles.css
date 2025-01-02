@@ -798,7 +798,7 @@ width: 100%;
 		height: 450px;
 	}
 	.contact-right button{
-		height: 67.5px;
+		height: 15%;
 	}
 }
 @media(max-width:400px){
@@ -808,7 +808,6 @@ width: 100%;
 	}
 	#main{
 		height: 750px;
-		background-image: none;
 	}
 	#services{
 		padding-top: 0px;
@@ -849,7 +848,7 @@ width: 100%;
 		height: 450px;
 	}
 	.contact-right button{
-		height: 67.5px;
+		height: 15%;
 	}
 }
 
