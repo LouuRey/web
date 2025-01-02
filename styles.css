@@ -755,7 +755,7 @@ width: 100%;
 		height:400px;
 	}
 	#main{
-		height: 650px;
+		height: 700px;
 		background-image: none;
 	}
 	#services{
@@ -783,7 +783,7 @@ width: 100%;
 		padding-top:10px;
 	}
 	#about{
-		height:600px;
+		height:700px;
 	}
 
 	.about-text{
@@ -804,7 +804,7 @@ width: 100%;
 @media(max-width:400px){
 	.s-box{
 		width: 100%;
-		height:400px;
+		height:650px;
 	}
 	#main{
 		height: 750px;
@@ -816,6 +816,9 @@ width: 100%;
 		padding-top: 100px;
 		padding-bottom: 100px;
 		width: 80%;
+	}
+	.name h1{
+		font-size:35px;
 	}
 	.social{
 		position: absolute;
