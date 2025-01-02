@@ -532,9 +532,9 @@ width: 100%;
 }
 @media(max-width:1190px){
 	#main{
-		background-size: 400px !important;
+		background-size: 300px !important;
 		background-position-x: 0px;
-		height: 540px;
+		height: 600px;
 	}
 	.name{
 		left: 40%;
@@ -563,10 +563,10 @@ width: 100%;
 		width:95% !important;
 	}
 	#contact-form{
-		height: 420px !important;
+		height: 500px !important;
 	}
 	#about{
-		height:480px;
+		height:600px;
 	}
  
 }
@@ -575,7 +575,7 @@ width: 100%;
 		padding:30px 50px;
 		position:relative;
 		width:100%;
-		height: 480px;
+		height: 600px;
 		box-sizing: border-box;
 		background-size: 300px auto !important;;
 		background-position: left bottom;
@@ -598,7 +598,7 @@ width: 100%;
 	#about{
 		justify-content: center;
 		padding-top: 0px;
-		height: 360px;
+		height: 500px;
 	}
 	.about-text{
 		width: 90%;
@@ -610,6 +610,9 @@ width: 100%;
 	.p-container{
 		width:100%;
 	
+	}
+	#services{
+		height:auto;
 	}
 	
 }
@@ -683,7 +686,7 @@ width: 100%;
 	}
 	#contact-form{
 		padding: 20px;
-		height: auto;
+		height: 600px;
 		box-sizing: border-box;
 	}
 	
@@ -730,16 +733,16 @@ width: 100%;
 		left:65%;
 	}
 	#main{
-		height: 420px;
+		height: 600px;
 	}
 	#about{
-		height: 360px;
+		height: 600px;
 	}
 	#contact-form form{
-		height: 390px;
+		height: 450px;
 	}
 	.contact-right button{
-		height: 15%;
+		height: 50%;
 	}
 
 	
@@ -752,7 +755,7 @@ width: 100%;
 		height:400px;
 	}
 	#main{
-		height: 480px;
+		height: 650px;
 		background-image: none;
 	}
 	#services{
@@ -780,7 +783,7 @@ width: 100%;
 		padding-top:10px;
 	}
 	#about{
-		height:420px;
+		height:600px;
 	}
 
 	.about-text{
@@ -792,7 +795,7 @@ width: 100%;
 	} 
 
 	#contact-form form{
-		height: 390px;
+		height: 450px;
 	}
 	.contact-right button{
 		height: 15%;
@@ -804,7 +807,7 @@ width: 100%;
 		height:400px;
 	}
 	#main{
-		height: 600px;
+		height: 750px;
 	}
 	#services{
 		padding-top: 0px;
@@ -830,7 +833,7 @@ width: 100%;
 		padding-top:10px;
 	}
 	#about{
-		height:540px;
+		height:700px;
 	}
 
 	.about-text{
@@ -842,7 +845,8 @@ width: 100%;
 	} 
 
 	#contact-form form{
-		height: 390px;
+		height: 450
+0px;
 	}
 	.contact-right button{
 		height: 15%;
