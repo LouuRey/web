@@ -752,6 +752,7 @@ width: 100%;
 	}
 	#main{
 		height: 80vh;
+		background-image: none;
 	}
 	#services{
 		padding-top: 0px;
@@ -759,13 +760,14 @@ width: 100%;
 	.name {
 		padding-top: 100px;
 		padding-bottom: 100px;
-		width: 80%;
+		width:80%;
+		left:50%;
 	}
 	.social{
 		position: absolute;
 		display: flex;
-		right:0px;
 		justify-self: center ;
+		right:25%;
 	}
 	.cv-btn{
 		justify-self: center ;
@@ -814,7 +816,7 @@ width: 100%;
 	.social{
 		position: absolute;
 		display: flex;
-		right:0px;
+		right:12%;
 		justify-self: center ;
 	}
 	.cv-btn{
