@@ -23,11 +23,11 @@
                     <li><a href="#portfolio">My Portfolio</a></li>		
                     <li><a href="#contact-form">Contact Me</a></li>	
                 </ul>
-                <a href="#" class="lang">En</a>
+                <a href="#" class="lang" data-lang="en">En</a>
             </nav>
 	        <div class="name">
                 <h2>HELLO EVERYONE,</h2>
-                <h1>I'm <font color="#ce745d">Muhammad Andriyas</font></h1>
+                <h1><font class="warnaku">I'm </font><font class="warna" color="#ce745d"> Muhammad Andriyas</font></h1>
                 <p class="details" style="text-align: justify;">I'm currently a student at Universitas Padjadjaran, 
 			pursuing a Bachelor's degree in Statistics. I've completed 5 semesters, gaining plenty of 
 			experience with courses focused on data analysis. Beyond that, I’ve been developing my skills 
@@ -79,7 +79,7 @@
                         <img src="images/s1.jpg">
                     </div>
                     <div class="s-b-text">
-                        <a style="text-align: justify;" href="#" style="text-align: justify;">I create visually stunning websites and applications using 
+                        <a style="text-align: justify;" href="#1" style="text-align: justify;">I create visually stunning websites and applications using 
 				HTML, CSS, and JavaScript while optimizing user experience with a touch of statistical analytics. 
 				From design to interaction, I blend aesthetics, technology, and data to deliver frontend products 
 				that are relevant, functional, and on point.</a>	
@@ -91,7 +91,7 @@
                         <img src="images/s2.jpg">
                     </div>
                     <div class="s-b-text">
-                        <a style="text-align: justify;" href="#"> I develop robust and efficient backend systems using PHP, MySQL, and Python, ensuring seamless 
+                        <a style="text-align: justify;" href="#2"> I develop robust and efficient backend systems using PHP, MySQL, and Python, ensuring seamless 
 				data flow and smooth functionality. With a logic-driven approach and the support of statistical analysis,
 				I deliver reliable, scalable solutions tailored to modern application needs.</a>	
                     </div>
@@ -106,7 +106,7 @@
                     </div>
         <!--text----------------->
                     <div class="s-b-text">
-                        <a  style="text-align: justify;" href="#">I analyze data in depth using R and Python to uncover patterns, trends, and meaningful insights. 
+                        <a  style="text-align: justify;" href="#3">I analyze data in depth using R and Python to uncover patterns, trends, and meaningful insights. 
 				With precise statistical approaches, I translate data into actionable solutions, enabling better 
 				decision-making and supporting the success of projects or businesses.</a>	
                     </div>
@@ -191,7 +191,7 @@
             <form>
             <!--left--------------------------------------->
                 <div class="contact-left">
-                    <h1 class="c-l-heading"><font style="border-bottom: 3px solid #ce745d;">Writ</font>e Me</h1>
+                    <h1 class="c-l-heading"><font class= "me1" style="border-bottom: 3px solid #ce745d;">Writ</font><font class= "me2">e Me</font></h1>
             <!--name-------->
                     <div class="f-name">
                         <font >Name</font>
@@ -216,11 +216,94 @@
             </form>
         </section>
         <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
-	<script type="text/javascript">
-	
-		  /*Responsive Navigation*/
-	  $(document).ready(function(){
-	 $('.toggle').click(function(){
-		 $('.toggle').toggleClass('active')
-    </body>
+        <script>
+            const translations = {
+              id: {
+                home: "Halaman Utama",
+                about: "Tentang Saya",
+                services: "Layanan",
+                portfolio: "Portofolio Saya",
+                contact: "Hubungi Saya",
+                hello: "HALO SEMUA,",
+                nameIntro1: "Saya ",
+                nameIntro2: " Muhammad Andriyas",
+                details1: "Saya saat ini adalah mahasiswa di Universitas Padjadjaran, mengambil program Sarjana Statistika. Saya telah menyelesaikan 5 semester dan memperoleh banyak pengalaman melalui mata kuliah yang berfokus pada analisis data. Selain itu, saya juga sedang mengembangkan keterampilan dalam pemrograman Front-End dan Back-End untuk mengintegrasikan pengetahuan statistik yang telah saya peroleh selama studi saya.",
+                details2: "Saya juga sangat tertarik dengan saham, forex, cryptocurrency, dan topik terkait lainnya. Minat ini mendorong saya untuk mengerjakan berbagai proyek yang berkaitan dengan bidang tersebut, baik yang berasal dari tugas kuliah maupun pembelajaran mandiri. Anda dapat melihat proyek-proyek saya di bagian Portofolio di bawah ini. Di masa depan, saya berencana untuk mengembangkan aplikasi broker dengan menggabungkan semua keterampilan yang telah saya kembangkan sejauh ini.",
+                downloadCV: "UNDUH CV",
+                aboutme: "TENTANG SAYA",
+                abouttext: "Pengembang Fullstack Pemula & Mahasiswa Statistika",
+                aboutdesc: "Di era digital saat ini, kebutuhan akan keterampilan dalam mengembangkan aplikasi dan menganalisis data semakin penting. Dengan kemajuan teknologi yang pesat, hampir setiap sektor menghadapi tantangan untuk memanfaatkan data yang dihasilkan oleh platform dan aplikasi secara efektif. Kemampuan untuk menciptakan aplikasi yang efisien dan fungsional sangat penting untuk memenuhi tuntutan pengguna, sementara keahlian dalam menganalisis dan menginterpretasikan data memungkinkan pengambilan keputusan yang lebih cerdas dan berbasis data. Inilah sebabnya keterampilan dalam pengembangan perangkat lunak dan statistik sangat dicari, karena keduanya memainkan peran kunci dalam menghadirkan solusi yang lebih baik dan inovatif di dunia yang semakin bergantung pada teknologi dan data.",
+                aboutbutton: "Lebih Rinci",
+
+                skill1: "KEAHLIAN",
+                skill2: "Berikut Beberapa Keahlian Saya",
+                skill3: "Saya menciptakan situs web dan aplikasi yang menakjubkan secara visual menggunakan HTML, CSS, dan JavaScript, sambil mengoptimalkan pengalaman pengguna dengan sentuhan analitik statistik. Mulai dari desain hingga interaksi, saya menggabungkan estetika, teknologi, dan data untuk menghasilkan produk frontend yang relevan, fungsional, dan tepat sasaran.",
+                skill4: "Saya mengembangkan sistem backend yang tangguh dan efisien menggunakan PHP, MySQL, dan Python, memastikan aliran data yang lancar dan fungsionalitas yang mulus. Dengan pendekatan berbasis logika dan dukungan analisis statistik, saya memberikan solusi yang dapat diandalkan dan skalabel yang disesuaikan dengan kebutuhan aplikasi modern.",
+                skill5: "Saya menganalisis data secara mendalam menggunakan R dan Python untuk mengungkap pola, tren, dan wawasan yang bermakna. Dengan pendekatan statistik yang tepat, saya mengubah data menjadi solusi yang dapat ditindaklanjuti, memungkinkan pengambilan keputusan yang lebih baik dan mendukung keberhasilan proyek atau bisnis.",
+                port:"PORTOFOLIO",
+                ctc: "Apakah Anda Memiliki Proyek Yang Ada Dalam Pikiran?",
+                ctcme: "Hubungi Saya",
+                writeMe1: "Tulis",
+                writeMe2: " Pesan",
+                name: "Nama",
+                email: "Surel",
+                message: "Pesan",
+                submit: "Kirim",
+                fn: "Nama Lengkap",
+                eem: "contoh@gmail.com",
+                tpe: "Tulis Pesan",
+              }
+            };
+          
+            document.querySelector('.lang').addEventListener('click', function (e) {
+              e.preventDefault();
+              const currentLang = this.getAttribute('data-lang');
+              const newLang = currentLang === 'en' ? 'id' : 'en';
+              this.setAttribute('data-lang', newLang);
+              this.textContent = newLang.toUpperCase();
+          
+              // Update translations only if the new language is "id"
+              if (newLang === 'id') {
+                document.querySelector('[href="#main"]').textContent = translations.id.home;
+                document.querySelector('[href="#about"]').textContent = translations.id.about;
+                document.querySelector('[href="#services"]').textContent = translations.id.services;
+                document.querySelector('[href="#portfolio"]').textContent = translations.id.portfolio;
+                document.querySelector('[href="#contact-form"]').textContent = translations.id.contact;
+          
+                document.querySelector('.name h2').textContent = translations.id.hello;
+                document.querySelector('.name h1 .warnaku').innerHTML = translations.id.nameIntro1;
+                document.querySelector('.name h1 .warna').innerHTML = translations.id.nameIntro2;
+                document.querySelectorAll('.details')[0].textContent = translations.id.details1;
+                document.querySelectorAll('.details')[1].textContent = translations.id.details2;
+                document.querySelector('.cv-btn').textContent = translations.id.downloadCV;
+                document.querySelector('.about-text h2').textContent = translations.id.aboutme;
+                document.querySelector('.about-text h3').textContent = translations.id.abouttext;
+                document.querySelector('.about-text p').textContent = translations.id.aboutdesc;
+                document.querySelector('.about-text button').textContent = translations.id.aboutbutton;
+                document.querySelector('.s-heading h1').textContent = translations.id.skill1;
+                document.querySelector('.s-heading p').textContent = translations.id.skill2;
+                document.querySelector('[href="#1"]').textContent = translations.id.skill3;
+                document.querySelector('[href="#2"]').textContent = translations.id.skill4;
+                document.querySelector('[href="#3"]').textContent = translations.id.skill5;
+                document.querySelector('.f-name input').setAttribute('placeholder', 'Nama Lengkap');
+                document.querySelector('.f-email input').setAttribute('placeholder', 'Contoh@gmail.com');
+                document.querySelector('.message textarea').setAttribute('placeholder', 'Tulis Pesan...');
+
+                document.querySelector('.p-headind').textContent = translations.id.port;
+                document.querySelector('#contact-btn h1').textContent = translations.id.ctc;
+                document.querySelector('#contact-btn button').textContent = translations.id.ctcme;
+
+                document.querySelector('.c-l-heading .me1').innerHTML = `<font style="border-bottom: 3px solid #ce745d;">${translations.id.writeMe1}</font>`;
+                document.querySelector('.c-l-heading .me2').innerHTML = textContent = translations.id.writeMe2;
+                document.querySelector('.f-name font').textContent = translations.id.name;
+                document.querySelector('.f-email font').textContent = translations.id.email;
+                document.querySelector('.message font').textContent = translations.id.message;
+                document.querySelector('button[type="submit"]').textContent = translations.id.submit;
+              } else {
+                // Reload page or reset to English (default from HTML)
+                location.reload();
+              }
+            });
+          </script>
+          
 </html>
