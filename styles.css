@@ -332,7 +332,7 @@ width: 100%;
 }
 .p-container{
 	width: 90%;
-	height:70vh;
+	height:420px;
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr;
 	grid-template-rows: auto auto;
@@ -416,7 +416,7 @@ width: 100%;
 }
 #contact-form{
 	width: 100%;
-	height: 90vh;
+	height: 540px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -425,7 +425,7 @@ width: 100%;
 #contact-form form{
 	display: flex;
 	width: 70%;
-	height: 60vh;
+	height: 360px;
 	background-color: #1A1A1A;
 	box-shadow: 2px 12px 20px rgba(0,0,0,0.2);
 	border: 1px solid rgba(255,255,255,0.01)
@@ -534,7 +534,7 @@ width: 100%;
 	#main{
 		background-size: 400px !important;
 		background-position-x: 0px;
-		height: 90vh;
+		height: 540px;
 	}
 	.name{
 		left: 40%;
@@ -563,10 +563,10 @@ width: 100%;
 		width:95% !important;
 	}
 	#contact-form{
-		height: 70vh !important;
+		height: 420px !important;
 	}
 	#about{
-		height:80vh;
+		height:480px;
 	}
  
 }
@@ -575,7 +575,7 @@ width: 100%;
 		padding:30px 50px;
 		position:relative;
 		width:100%;
-		height: 80vh;
+		height: 480px;
 		box-sizing: border-box;
 		background-size: 300px auto !important;;
 		background-position: left bottom;
@@ -598,7 +598,7 @@ width: 100%;
 	#about{
 		justify-content: center;
 		padding-top: 0px;
-		height: 60vh;
+		height: 360px;
 	}
 	.about-text{
 		width: 90%;
@@ -730,13 +730,13 @@ width: 100%;
 		left:65%;
 	}
 	#main{
-		height: 70vh;
+		height: 420px;
 	}
 	#about{
-		height: 60vh;
+		height: 360px;
 	}
 	#contact-form form{
-		height: 65vh;
+		height: 390px;
 	}
 	.contact-right button{
 		height: 15%;
@@ -752,7 +752,7 @@ width: 100%;
 		height:400px;
 	}
 	#main{
-		height: 80vh;
+		height: 480px;
 		background-image: none;
 	}
 	#services{
@@ -780,7 +780,7 @@ width: 100%;
 		padding-top:10px;
 	}
 	#about{
-		height:70vh;
+		height:420px;
 	}
 
 	.about-text{
@@ -792,7 +792,7 @@ width: 100%;
 	} 
 
 	#contact-form form{
-		height: 65vh;
+		height: 390px;
 	}
 	.contact-right button{
 		height: 15%;
@@ -804,7 +804,7 @@ width: 100%;
 		height:400px;
 	}
 	#main{
-		height: 100vh;
+		height: 600px;
 	}
 	#services{
 		padding-top: 0px;
@@ -830,7 +830,7 @@ width: 100%;
 		padding-top:10px;
 	}
 	#about{
-		height:90vh;
+		height:540px;
 	}
 
 	.about-text{
@@ -842,7 +842,7 @@ width: 100%;
 	} 
 
 	#contact-form form{
-		height: 65vh;
+		height: 390px;
 	}
 	.contact-right button{
 		height: 15%;
