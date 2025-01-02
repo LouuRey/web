@@ -531,13 +531,15 @@ width: 100%;
 }
 @media(max-width:1190px){
 	#main{
-		background-size: 1150px !important;
-		
+		background-size: 400px !important;
+		background-position-x: 0px;
+		height: 90vh;
 	}
 	.name{
-		left: 10%;
+		left: 40%;
 		top: 50%;
 		transform: translate(-10%,-50%);
+		width: 60%;
 	}
 	.about-model img{
 		height:400px;
@@ -559,15 +561,31 @@ width: 100%;
 	#contact-form form{
 		width:95% !important;
 	}
+	#contact-form{
+		height: 70vh !important;
+	}
+	#about{
+		height:80vh;
+	}
  
 }
 @media(max-width:970px){
 	#main{
-		background-image: none !important;
-		
+		padding:30px 50px;
+		position:relative;
+		width:100%;
+		height: 80vh;
+		box-sizing: border-box;
+		background-size: 300px auto !important;;
+		background-position: left bottom;
+		background-repeat: no-repeat;
+		background-image: url("prf.png");
+		background-color: #e5e1d0;
+		background-position-x: 0px;
+	
 	}
 	.name{
-		left: 50%;
+		left: 60%;
 		top: 50%;
 		transform: translate(-50%,-50%);
 	}
@@ -579,6 +597,7 @@ width: 100%;
 	#about{
 		justify-content: center;
 		padding-top: 0px;
+		height: 60vh;
 	}
 	.about-text{
 		width: 90%;
@@ -705,31 +724,75 @@ width: 100%;
 	#contact-form form h1{
 		margin:5px 0px;
 	}
+	.name{
+		width:60%;
+		left:65%;
+	}
+	#main{
+		height: 70vh;
+	}
+	#about{
+		height: 60vh;
+	}
+	#contact-form form{
+		height: 65vh;
+	}
+	.contact-right button{
+		height: 15%;
+	}
+
 	
 	
 }
  
 @media(max-width:600px){
-	.p-container{
-		grid-template-columns:1fr ;
-		grid-template-rows: auto;}
-	.c-b-heading{
-		font-size: 1.2rem;
-		text-align: center;
-		margin: 0px 10%;
+	.s-box{
+		width: 100%;
+		height:400px;
 	}
-	.name{
-		width:60%;
+	#main{
+		height: 80vh;
 	}
-	
-	
-	.black-line{
-		margin-bottom: 20px;
+	#services{
+		padding-top: 0px;
+	}
+	.name {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		width: 80%;
 	}
 	.social{
-		left: 30px;
-		transform: translateX(-10px);
-		position: relative;
+		position: absolute;
+		display: flex;
+		right:0px;
+		justify-self: center ;
+	}
+	.cv-btn{
+		justify-self: center ;
+	}
+	.toggle{
+		display:none;
+	}
+	.s-heading h1{
+		padding-top:10px;
+	}
+	#about{
+		height:70vh;
+	}
+
+	.about-text{
+		width:100%;
+		justify-content: center ;
+	} 
+	.about-model{
+		width:0%
+	} 
+
+	#contact-form form{
+		height: 65vh;
+	}
+	.contact-right button{
+		height: 15%;
 	}
 }
 @media(max-width:400px){
@@ -739,7 +802,6 @@ width: 100%;
 	}
 	#main{
 		height: 100vh;
-		
 	}
 	#services{
 		padding-top: 0px;
@@ -777,7 +839,7 @@ width: 100%;
 	} 
 
 	#contact-form form{
-		height: 62vh;
+		height: 65vh;
 	}
 	.contact-right button{
 		height: 15%;
