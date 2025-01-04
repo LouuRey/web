@@ -190,33 +190,42 @@
             <a href="#"><button>Contact Me</button></a>
         </section>
         <section id="contact-form">
-            <form>
-            <!--left--------------------------------------->
-                <div class="contact-left">
-                    <h1 class="c-l-heading"><font class= "me1" style="border-bottom: 3px solid #ce745d;">Writ</font><font class= "me2">e Me</font></h1>
-            <!--name-------->
-                    <div class="f-name">
-                        <font >Name</font>
-                        <input type="text" placeholder="Full Name"/>
-                    </div>
-            <!--email-------->
-                    <div class="f-email">
-                        <font >Email</font>
-                        <input type="email" placeholder="Example@gmail.com"/>
-                    </div>
-                </div>
-            <!--right------------------------------------------->
-                <div class="contact-right">
-            <!--message-------->
-                    <div class="message">
-                        <font >Message</font>
-                        <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
-                    </div>
-            <!--submit-btn------------>
-                    <button>submit</button>
-                </div>
-            </form>
-        </section>
+	    <form method="POST" data-netlify="true" name="contact" netlify-honeypot="bot-field">
+	        <!-- Input untuk Netlify honeypot -->
+	        <input type="hidden" name="form-name" value="contact" />
+	        <p hidden>
+	            <label>Don’t fill this out: <input name="bot-field" /></label>
+	        </p>
+	        <!-- Bagian kiri -->
+	        <div class="contact-left">
+	            <h1 class="c-l-heading">
+	                <font class="me1" style="border-bottom: 3px solid #ce745d;">Writ</font>
+	                <font class="me2">e Me</font>
+	            </h1>
+	            <!-- Nama -->
+	            <div class="f-name">
+	                <font>Name</font>
+	                <input type="text" name="name" placeholder="Full Name" required />
+	            </div>
+	            <!-- Email -->
+	            <div class="f-email">
+	                <font>Email</font>
+	                <input type="email" name="email" placeholder="Example@gmail.com" required />
+	            </div>
+	        </div>
+	        <!-- Bagian kanan -->
+	        <div class="contact-right">
+	            <!-- Pesan -->
+	            <div class="message">
+	                <font>Message</font>
+	                <textarea name="message" rows="5" cols="20" placeholder="Write Message..." required></textarea>
+	            </div>
+	            <!-- Tombol submit -->
+	            <button type="submit">Submit</button>
+	        </div>
+	    </form>
+	</section>
+
         <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
         <script>
             const translations = {
